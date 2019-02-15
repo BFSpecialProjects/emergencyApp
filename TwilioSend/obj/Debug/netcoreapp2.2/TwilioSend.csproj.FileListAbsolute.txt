@@ -1,0 +1,11 @@
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/obj/Debug/netcoreapp2.2/TwilioSend.csprojAssemblyReference.cache
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/obj/Debug/netcoreapp2.2/TwilioSend.csproj.CoreCompileInputs.cache
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/obj/Debug/netcoreapp2.2/TwilioSend.AssemblyInfoInputs.cache
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/obj/Debug/netcoreapp2.2/TwilioSend.AssemblyInfo.cs
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/bin/Debug/netcoreapp2.2/TwilioSend.deps.json
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/bin/Debug/netcoreapp2.2/TwilioSend.runtimeconfig.json
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/bin/Debug/netcoreapp2.2/TwilioSend.runtimeconfig.dev.json
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/bin/Debug/netcoreapp2.2/TwilioSend.dll
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/bin/Debug/netcoreapp2.2/TwilioSend.pdb
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/obj/Debug/netcoreapp2.2/TwilioSend.dll
+/home/wdtay/Programming/BF/EmergencyAlarm/Twilio/TwilioSend/obj/Debug/netcoreapp2.2/TwilioSend.pdb
