@@ -1,0 +1,38 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.0",
+    "signature": "099ce7e4bc984395418ed84840a1fe8b433d1ecf"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.0": {
+      "emailSender/1.0.0": {
+        "dependencies": {
+          "GemBox.Email": "13.0.0.1030"
+        },
+        "runtime": {
+          "emailSender.dll": {}
+        }
+      },
+      "GemBox.Email/13.0.0.1030": {
+        "runtime": {
+          "lib/netstandard2.0/GemBox.Email.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "emailSender/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GemBox.Email/13.0.0.1030": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-7AWEF+ruxQrnbUKHlBkPeUVlpTc5b+J8wlc1uMPfrfDCum4RlY0Jia1MK9OHFJKNYmFvtri8der06VR0iYDf2A==",
+      "path": "gembox.email/13.0.0.1030",
+      "hashPath": "gembox.email.13.0.0.1030.nupkg.sha512"
+    }
+  }
+}
