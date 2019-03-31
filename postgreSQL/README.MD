@@ -6,3 +6,5 @@ Open SQL Shell
 Enter details to connect
 \d (shows table list)
 select * from "tablenamehere";
+
+Drop "tablenamehere"; to drop table
