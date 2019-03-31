@@ -1,8 +1,7 @@
-#Arrays do not work yet, remove them to test the rest of the code
-
 import psycopg2
 from psycopg2 import Error
 
+# Arrays Example
 arrA = [1, 3, 5, 7, 9, 11]
 arrB = [2, 4, 6, 8, 10, 12]
 arrC = ["one", "two", "three", "four", "five", "six"]
@@ -35,12 +34,12 @@ try:
                    "'Jane Doe', "
                    "'jdoe2@wcpss.net', "
                    "'7654321')")
-    cursor.execute("INSERT INTO Arrays(ID_Number, val1, val2, val3, val4, val5, val6) VALUES("
+    cursor.execute("INSERT INTO Arrays VALUES("
                    "3, "
-                   "ARRAY[arrA])")
-    cursor.execute("INSERT INTO Arrays(ID_Number, val1, val2, val3, val4, val5, val6) VALUES("
+                   "'{1,3,5,7,9,11,13}')")
+    cursor.execute("INSERT INTO Arrays VALUES("
                    "4, "
-                   "ARRAY[arrB])")
+                   "'{2,4,6,8,10,12,14}')")
 
     connection.commit()
     print("Values inserted successfully.")
