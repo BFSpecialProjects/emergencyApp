@@ -1,3 +1,5 @@
+#Arrays do not work yet, remove them to test the rest of the code
+
 import psycopg2
 from psycopg2 import Error
 
@@ -35,7 +37,7 @@ try:
                    "'7654321')")
     cursor.execute("INSERT INTO Arrays(ID_Number, val1, val2, val3, val4, val5, val6) VALUES("
                    "3, "
-                   "ARRAY[arrB])")
+                   "ARRAY[arrA])")
     cursor.execute("INSERT INTO Arrays(ID_Number, val1, val2, val3, val4, val5, val6) VALUES("
                    "4, "
                    "ARRAY[arrB])")
