@@ -16,12 +16,7 @@ try:
     cursor.execute("""
     CREATE TABLE Arrays(
     ID_Number integer PRIMARY KEY,
-    val1 integer,
-    val2 integer,
-    val3 integer,
-    val4 integer,
-    val5 integer,
-    val6 integer)
+    arr integer ARRAY)
 """)
     print("Table Arrays created successfully")
     cursor.execute("""
