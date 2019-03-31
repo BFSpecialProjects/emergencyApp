@@ -6,7 +6,7 @@ try:
                                   database="postgres",
                                   port="5432",
                                   user="postgres",
-                                  password="pass")
+                                  password="azedsuop")
     cursor = connection.cursor()
     print(connection.get_dsn_parameters(), "\n")
     cursor.execute("SELECT version();")
@@ -16,8 +16,12 @@ try:
     cursor.execute("""
     CREATE TABLE Arrays(
     ID_Number integer PRIMARY KEY,
-    ArrayA integer,
-    ArrayB integer)
+    val1 integer,
+    val2 integer,
+    val3 integer,
+    val4 integer,
+    val5 integer,
+    val6 integer)
 """)
     print("Table Arrays created successfully")
     cursor.execute("""
@@ -32,7 +36,7 @@ try:
 except (Exception, psycopg2.Error) as error:
     print("Error while connecting to PostgreSQL", error)
 finally:
-        if(connection):
+        if (connection):
             cursor.close()
             connection.close()
             print("PostgreSQL connection is closed")
