@@ -16,18 +16,30 @@ try:
                                   database="postgres",
                                   port="5432",
                                   user="postgres",
-                                  password="pass")
+                                  password="azedsuop")
     cursor = connection.cursor()
     print(connection.get_dsn_parameters(), "\n")
     cursor.execute("SELECT version();")
     record = cursor.fetchone()
     print("You are connected to - ", record, "\n")
 
-    cursor.execute("INSERT INTO Teachers VALUES(1, 'John Doe', 'jdoe@wcpss.net', '1234567')")
-    cursor.execute("INSERT INTO Teachers VALUES(2, 'Jane Doe', 'jdoe2@wcpss.net', '7654321')")
+    cursor.execute("INSERT INTO Teachers VALUES("
+                   "1, "
+                   "'John Doe', "
+                   "'jdoe@wcpss.net', "
+                   "'1234567')")
+    cursor.execute("INSERT INTO Teachers VALUES("
+                   "2, "
+                   "'Jane Doe', "
+                   "'jdoe2@wcpss.net', "
+                   "'7654321')")
+    cursor.execute("INSERT INTO Arrays(ID_Number, val1, val2, val3, val4, val5, val6) VALUES("
+                   "3, "
+                   "ARRAY[arrB])")
+    cursor.execute("INSERT INTO Arrays(ID_Number, val1, val2, val3, val4, val5, val6) VALUES("
+                   "4, "
+                   "ARRAY[arrB])")
 
-    cursor.execute("INSERT INTO Arrays VALUES(1, arrA)")
-    cursor.execute("INSERT INTO Arrays VALUES(2, arrB)")
     connection.commit()
     print("Values inserted successfully.")
 
