@@ -17,7 +17,7 @@ try:
                                   database="postgres",
                                   port="5432",
                                   user="postgres",
-                                  password="azedsuop")
+                                  password="nestwatch")
     cursor = connection.cursor()
     print(connection.get_dsn_parameters(), "\n")
     cursor.execute("SELECT version();")
